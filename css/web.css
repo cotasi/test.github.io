@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.bg-check {
+    background-color: gray;
+}
+
+.rel {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jcb {
+    justify-content: space-between;
+}
+
+.aic {
+    align-items: center;
+}
+
+.ofh {
+    overflow: hidden;
+}
+
+.h-0 {
+    height: 0;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.h300 {
+    height: 300px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.w1200 {
+    width: 1200px;
+}
+
+.f-shrink {
+    flex-shrink: 0;
+}
+
+.f-grow {
+    flex-grow: 1;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+header#hd {
+    background-color: #4a4948;
+}
+
+header#hd h1 {
+    line-height: 6rem;
+}
+
+header#hd h1 a {
+    display: block;
+    line-height: 6rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -2px;
+    font-family: 'Prentendard';
+    color: #fff;
+}
+
+header#hd #gnb {
+    height: 100%;
+}
+
+header#hd #gnb>li {
+    line-height: 6rem;
+}
+
+header#hd #gnb>li>a {
+    display: block;
+    line-height: 4rem;
+    padding: 0 3rem;
+    color: #fff;
+}
+
+header#hd #gnb>li:hover>a {
+    background-color: #5c5c5b;
+}
+
+header#hd .smenu {
+    top: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #222328;
+    height: 0;
+    min-height: 0;
+    overflow: hidden;
+    transition: all .4s;
+}
+
+#gnb>li:after{
+    content: "";
+    position: absolute;
+    bottom:0;
+    width:0; margin: auto;
+    height: 2px;
+    left:0; right:0;
+    background-color: red;
+    transition: 0.5s;
+}
+#gnb>li:hover:after {
+    width:100%;
+}
+
+header#hd .smenu a {
+    line-height: 2.5;
+    color: #fff;
+    width: 100%;
+    display: block;
+}
+
+header#hd #gnb>li:hover .smenu {
+    min-height: 160px;
+}
+
+.smenu li a:hover {
+    background-color: #caac7d;
+}
+
+.tab {
+    padding: .5rem 1rem;
+    background-color: #caac7d;
+    display: inline-block;
+    color: #fff;
+}
+
+.notice-list {
+    border: 1px solid #eeeeee;
+    margin-right: .3rem;
+}
